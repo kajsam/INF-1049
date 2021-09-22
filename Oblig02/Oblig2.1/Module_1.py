@@ -43,6 +43,13 @@ def conversation(): # define a function
         print(f"Ada: {number} is a great one, but I recommend you to change to {new_number} which is even better!")
 
 
+print("kajsa")
+
+def x_y(x):
+    y = x
+    return y
+
 if __name__ == "__main__": # does not run when imported
 
     conversation()
+    print(x_y(4))
