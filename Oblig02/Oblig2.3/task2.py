@@ -58,15 +58,19 @@ def rank_income(dictionary):
         
     idx_income = np.argsort(mean_income)
     
-    print(type(idx_income[0]))
+    print(type(idx_income))
+    
+    ranked_mean = dict(zip(idx_income,list(dictionary.keys()))) 
+    
+    print(ranked_mean)   
+    
+# eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee 
+
+def growth_rate(dictionary):
     
     
-    #ranked_mean = {k: dictionary[k] for k in idx_income}
-        
     
-    #print(ranked_mean)
     
-        
 
 if __name__ == "__main__":
     
