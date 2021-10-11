@@ -59,6 +59,18 @@
 			Input: None
 			Output: Five plots
 
+# Deloppgave 2.3: 	kam025_a3
+
+	Task 1: 		task1.py
+			Requires: Nothing
+			Input: None
+			Output: Strings with headings (a)-(i)
+
+	Task 2: 		task2.py
+			Requires: Nothing
+			Input: User input from terminal - printing options
+			Output: Strings with headings (a)-(e)
+
 
 			
 
