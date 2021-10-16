@@ -13,7 +13,7 @@
 	Task 2: 		task2.py
 			Requires: Nothing
 			Input: None
-			Output: Text announcing numeric and analytic solution. Plot.
+			Output: Text announcing numeric and analytic solutions. Two plots.
 
 	Task 3: 		vector3d.py
 

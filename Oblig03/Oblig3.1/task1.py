@@ -8,7 +8,8 @@ Created on Thu Oct 14 08:59:39 2021
 
 # Task 1
 
-import numpy as np # arrays as such
+# The class Cube is defined with the mandatory __init__ function, and three
+# methods. Each method returns a float according to well-known equations. 
 
 class Cube:
     def __init__(self, x, y, z, rho=997):
@@ -21,21 +22,17 @@ class Cube:
         self.x, self.y, self.z, self.rho = x, y, z, rho
         
     def volume(self):
-        """Returns the volume of a cube object."""
-        
+        """Returns the volume of a cube object."""       
         return self.x*self.y*self.z
     
     def area(self):
-        """Returns the surface area of cube object."""
-        
+        """Returns the surface area of cube object."""        
         return 2*(self.x*self.y + self.x*self.z + self.y*self.z)
     
     def mass(self):
-        """Returns the mass of cube object."""
-        
-        # calling a function within the class: use self.
-        V = self.volume()
-        
+        """Returns the mass of cube object."""      
+        # when calling a function within the class: use self.
+        V = self.volume()        
         return V*self.rho
     
 if __name__ == "__main__":
@@ -58,6 +55,7 @@ if __name__ == "__main__":
     # b ------------------------------------------------------------------ b -
     print('\nb)')
     
+    # an instance made without specifying the density will be a water cube
     cubeB = Cube(x,y,z)
     
     print(f"Mass: {cubeB.mass()}.")
