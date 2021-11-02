@@ -45,9 +45,24 @@
 			Input: None
 			Output: Three lists.
 
+# Deloppgave 3.3: 	kam025_a3
+
+	Task 1: 		task1.py
+			Requires: Nothing
+			Input: None
+			Output: A plot with two graphs
+
+	Task 2:		task2.py 
+			Requires: Nothing
+			Input: None
+			Output: A plot with one graph, another with five graphs.
+
+	Task 3: 		task3.py
+			Requires: Nothing
+			Input: None
+			Output: A plot with plenty of graphs
 
 
-https://www.youtube.com/watch?v=SyD4p8_y8Kw
 
 
 			
